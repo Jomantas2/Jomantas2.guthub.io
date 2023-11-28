@@ -1,0 +1,33 @@
+@media print {
+    body {
+        font-family: 'serif';
+    }
+  
+    p, h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+    }
+  
+    img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        page-break-after: avoid;
+    }
+  
+    table {
+        page-break-inside: avoid;
+    }
+    #header{display:none}
+    #hero{display:none}
+    #services{display:none}
+    #work{display:none}
+    #blog{display:none}
+    #contact{display:none}
+    #testimonial-mf{display:none}
+    #testimonial-mf1{display:none}
+    .print-link {
+        display: none;
+    }
+    }
+  
