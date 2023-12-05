@@ -1461,6 +1461,27 @@ footer .credits a {
   color: #fff;
 }
 
+#clock {
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
 
+#clock-container {
+  background-color: #3498db;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
 
+#svg-container {
+  text-align: center;
+}
+
+#clock-svg {
+  width: 100px;
+  height: auto;
+}
 
